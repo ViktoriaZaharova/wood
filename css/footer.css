@@ -165,3 +165,9 @@
     cursor: pointer;
     align-items: center;
 }
+
+.footer-item-7 > div:nth-child(1) > div:nth-child(3) > img {
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+}
