@@ -139,3 +139,11 @@ $('.colorsArrow1').click(function() {
     }
 
 });
+
+$('.type-glazing__wrapper').slick({
+    slideToShow: 1,
+    infinite: false,
+    prevArrow: '<button type="button" class="slick-prev"></button>',
+    nextArrow: '<button type="button" class="slick-next"></button>',
+    fade: true
+});
