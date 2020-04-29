@@ -446,14 +446,15 @@ footer .aluminum-footer-item-2 > div:nth-child(2) {
     margin: 76px 0 0 0;
 }
 
-.portals-content p {
-    margin: 0;
+/*.portals-content p {*/
+/*    margin: 0;*/
 
-}
+/*}*/
 
 .portals-content .container {
-    padding: 26px 25px 63px;
+    padding: 26px 8.125vw 63px;
 }
+
 
 .virtues-portals {
     background: url("../img/portals/bg2.jpeg") no-repeat center;

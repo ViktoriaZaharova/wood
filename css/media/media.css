@@ -422,12 +422,12 @@
     }
 
     .virtues-aluminium__box {
-        width: 120px;
-        height: 80px;
+        width: 200px;
+        height: 90px;
     }
 
     .virtues-aluminium .virtues-big {
-        font-size: 10px;
+        font-size: 12px;
         font-family: 'Ubuntu-Light', sans-serif;
     }
 
@@ -528,8 +528,8 @@
     }
 
     .virtues-portals .virtues-aluminium__box {
-        width: 224px;
-        height: 70px;
+        width: 225px;
+        height: 80px;
     }
 
     .portals-box .subtitle {
@@ -663,4 +663,6 @@
         font-size: 10px;
         margin: 23px 0 0;
     }
+
+
 }

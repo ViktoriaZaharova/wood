@@ -329,8 +329,8 @@ footer {
         margin-bottom: 20px !important;
         text-align: center !important;
         align-items: center !important;
-        width: 70% !important;
-        height: 30vw !important;
+        width: 210px !important;
+        height: 50px !important;
         background-size: 100% 100% !important;
         margin: 0  auto !important;
     }
@@ -347,10 +347,13 @@ footer {
 
     .footer-item-6 {
         position: relative;
-        background-image: unset;
+        /*background-image: unset;*/
         width: 100% !important;
-        height: 18% !important;
+        height: 308px !important;
         /* height: 15.625% !important; */
+        margin: 36px 0 -60px;
+        -webkit-background-size: contain;
+        background-size: contain;
      }
 
     .min-footer-black {
@@ -363,27 +366,29 @@ footer {
         left: -16% !important;
     }
 
-    .footer-item-6 > div {
-        display: none;
-    }
+    /*.footer-item-6 > div {*/
+    /*    display: none;*/
+    /*}*/
 
     .footer-item-6 > div:nth-of-type(1) {
         position: absolute;
-        opacity: .8;
+        /*opacity: .8;*/
         top: 40px;
         /* font-size: 10vw; */
         width: 100%;
-        left: 1.25vw;
+        left: 0;
+        font-size: 28px;
     }
 
     .footer-item-6 > div:nth-of-type(2) {
         position: absolute;
-        top: 65px;
-        left: 1.25vw;
-        margin-top: 4vw;
-        font-size: 2.8vw;
+        top: 100px;
+        left: 0;
+        margin: 0;
+        line-height: normal;
+        font-size: 10px;
         width: 100%;
-        opacity: .8;
+        /*opacity: .8;*/
     }
 
     .go-to {
@@ -468,5 +473,28 @@ footer {
 @media screen and (max-width: 600px) {
     .min-footer-colors {
         height: 100px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-item-6 {
+        background: transparent;
+        height: 250px !important;
+    }
+
+    .footer-item-6:before {
+        content: '';
+        position: absolute;
+        width: 340px;
+        height: 308px;
+        background: url('../img/footer/black-desktop.png') no-repeat center;
+        -webkit-background-size: contain;
+        background-size: contain;
+        left: -45px;
+        top: -55px;
+    }
+
+    footer {
+        padding: 0 20px 1.625vw;
     }
 }
